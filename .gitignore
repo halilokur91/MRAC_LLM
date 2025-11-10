@@ -1,0 +1,206 @@
+# MRAC_LLM - Git Ignore File
+# ================================
+
+# ============================================
+# MATLAB Specific Files
+# ============================================
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# MATLAB autosave files
+*.autosave
+
+# MATLAB compiled files
+*.mex*
+*.p
+
+# Simulink cache and temporary files
+*.slxc
+slprj/
+*.autosave
+
+# MATLAB Code Generation
+codegen/
+
+# MATLAB app packaging
+*.mlappinstall
+*.mltbx
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Sensitive configuration (API keys)
+config.json
+.env
+*.key
+
+# Backup API config (if exists)
+config.json.backup
+
+# Log files
+logs/*.txt
+logs/*.csv
+*.log
+
+# Temporary reports
+temp_*.html
+temp_*.pdf
+
+# Simulation output files (keep structure, ignore content)
+reports/*.html
+reports/*.pdf
+
+# Exported graphics (auto-generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+!formula_images/*.png
+!docs/images/*.png
+
+# MATLAB settings
+mrac_settings.mat
+*.mat
+
+# CSV data logs
+iteration_data.csv
+simulation_*.csv
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# ============================================
+# Build and Distribution
+# ============================================
+
+# Distribution packages
+dist/
+build/
+*.egg-info/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ============================================
+# Documentation Build
+# ============================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# ============================================
+# Version Control
+# ============================================
+
+# Git
+.git/
+*.orig
+
+# SVN
+.svn/
+
+# ============================================
+# Testing and Coverage
+# ============================================
+
+# Test results
+test_results/
+coverage/
+*.coverage
+
+# ============================================
+# Miscellaneous
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Compressed files (unless needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Keep These Files (Exceptions)
+# ============================================
+
+# Keep example configurations
+!config.json.example
+!.env.example
+
+# Keep important images
+!docs/**/*.png
+!formula_images/**/*.png
+
+# Keep sample reports
+!docs/sample_report.html
+
+# Keep empty directories with .gitkeep
+!**/.gitkeep
+
