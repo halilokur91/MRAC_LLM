@@ -43,8 +43,8 @@
 
 The system supports three MRAC variants:
 1. **Classic MRAC** - Traditional model reference adaptive control
-2. **Filtered MRAC** - Enhanced with noise filtering
-3. **Time-Delay MRAC** - Compensates for system delays
+2. **Filtered MRAC** - Enhanced with noise filtering (Planned for v2.0)
+3. **Time-Delay MRAC** - Compensates for system delays (Planned for v2.0)
 
 ---
 
@@ -574,6 +574,7 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
 
 
