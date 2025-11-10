@@ -279,42 +279,54 @@ MRAC_LLM/
 
 ## 🎓 MRAC Models
 
-### 1. Classic MRAC
+### 1. Classic MRAC (Current Implementation)
 
-**Adaptation Laws:**
-```matlab
-θ̇ = -Γ_θ · e · φ
-k̇_r = -Γ_kr · r · e
-```
+**Status**: ✅ Fully Implemented and Tested
+
+**Description**: Traditional Model Reference Adaptive Control implementation with direct adaptive laws.
 
 **Best for:**
 - Standard adaptive control applications
 - Educational purposes
 - Baseline performance comparison
+- Real-time system identification
 
-### 2. Filtered MRAC
+**Features:**
+- Real-time parameter adaptation
+- Stability guarantees under persistence of excitation
+- Integration with GPT-4 for parameter tuning
+- Comprehensive simulation and reporting
 
-**Adaptation Laws:**
-```matlab
-θ̇ = -Γ_θ · e · φ · α
-k_r_base = -Γ_r · r · e · gain_factor · α
-```
+### 2. Filtered MRAC (Planned for v2.0)
 
-**Best for:**
-- Noisy environments
-- Industrial applications
-- Improved robustness
+**Status**: 🔄 Under Development
 
-### 3. Time-Delay MRAC
+**Description**: Enhanced MRAC with filtering for improved noise rejection and robustness in uncertain environments.
 
-**Adaptation Laws:**
-```matlab
-k̇_r = -Γ · r · e
-```
+**Planned Features:**
+- Advanced filtering algorithms
+- Improved noise resistance
+- Industrial-grade robustness
 
-**Best for:**
-- Systems with time delays
-- Communication delays
+**Target Applications:**
+- Noisy industrial environments
+- Sensor uncertainty compensation
+- High-precision control systems
+
+### 3. Time-Delay MRAC (Planned for v2.0)
+
+**Status**: 🔄 Under Development
+
+**Description**: Specialized MRAC variant designed to handle systems with time delays and communication lags.
+
+**Planned Features:**
+- Delay compensation algorithms
+- Predictor-based control
+- Communication delay handling
+
+**Target Applications:**
+- Networked control systems
+- Remote operation scenarios
 - Actuator lag compensation
 
 ---
@@ -562,4 +574,5 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
