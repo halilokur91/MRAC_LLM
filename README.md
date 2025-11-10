@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
 
-> **AI-Powered Model Reference Adaptive Control (MRAC) with GPT-4 Integration**
+> **AI-Powered Model Reference Adaptive Control (MRAC) with GPT Integration**
 > 
 > A comprehensive MATLAB/Simulink application that combines classical control theory with modern AI to provide intelligent parameter tuning and system optimization.
 
@@ -33,7 +33,7 @@
 
 ## 🌟 Overview
 
-**MRAC-LLM** is an advanced adaptive control system that leverages **GPT-4's intelligence** to assist control engineers in:
+**MRAC-LLM** is an advanced adaptive control system that leverages **GPT's intelligence** to assist control engineers in:
 
 - 🎯 Designing optimal reference models
 - 🔧 Tuning adaptation parameters automatically
@@ -56,7 +56,7 @@ The system supports three MRAC variants:
 - **3-column layout** for system/reference/MRAC configuration
 - **Natural language processing** support
 
-### 🤖 GPT-4 Intelligence
+### 🤖 GPT Intelligence
 - **Automated parameter suggestions** based on performance requirements
 - **Three optimization modes**: Performance, Robustness, General
 - **Expert-level recommendations** using control theory
@@ -328,7 +328,7 @@ k̇_r = -Γ · r · e
 - Control theory formulas
 - Works offline
 
-#### 🧙 Master Layer (GPT-4)
+#### 🧙 Master Layer (GPT)
 - Advanced optimization
 - Expert recommendations
 - System analysis
@@ -519,7 +519,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **OpenAI GPT-4** for intelligent parameter recommendations
+- **OpenAI GPT** for intelligent parameter recommendations
 - **MathWorks** for MATLAB/Simulink platform
 - **Control Systems Community** for theoretical foundations
 
@@ -543,7 +543,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Version 1.2 (Future)
 - [ ] Multi-input multi-output (MIMO) support
-- [ ] Advanced GPT-4 features
+- [ ] Advanced GPT features
 - [ ] Mobile app interface
 - [ ] Real-time hardware integration
 
@@ -562,3 +562,4 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
