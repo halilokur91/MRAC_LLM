@@ -102,11 +102,11 @@ MRAC_Main_Script;
 app = MRACApp;
 
 % 2. Select model type
-app.ModelTypeDropDown.Value = 'Klasik MRAC';
+app.ModelTypeDropDown.Value = 'Classic MRAC';
 
 % 3. Set performance goals
-app.OvershootDropDown.Value = 'Düşük Aşım (Max %5)';
-app.SettlingTimeDropDown.Value = 'Kısa (1s-3s)';
+app.OvershootDropDown.Value = 'Low Overshoot (Max 5%)';
+app.SettlingTimeDropDown.Value = 'Short (1s-3s)';
 
 % 4. Get GPT suggestions
 % Click "Get Suggestions" button
@@ -208,7 +208,7 @@ addModulePaths();
 
 % Create MRAC engine
 engine = MRACEngine();
-engine.configureModel('Klasik MRAC', refModel, adaptParams);
+engine.configureModel('Classic MRAC', refModel, adaptParams);
 
 % Run simulation
 results = engine.runSimulation(10);  % 10 seconds
@@ -397,7 +397,7 @@ app = MRACApp;
 app = MRACApp;
 
 % Set model type
-app.ModelTypeDropDown.Value = 'Klasik MRAC';
+app.ModelTypeDropDown.Value = 'Classic MRAC';
 
 % Set performance requirements
 app.OvershootDropDown.Value = 'Düşük Aşım (Max %5)';
@@ -436,7 +436,7 @@ adaptParams.gamma_kr = 1000;
 adaptParams.Ts = 0.001;
 
 % Setup engine
-engine.configureModel('Klasik MRAC', refModel, adaptParams);
+engine.configureModel('Classic MRAC', refModel, adaptParams);
 
 % Run simulation
 results = engine.runSimulation(10);
@@ -574,5 +574,6 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
 
