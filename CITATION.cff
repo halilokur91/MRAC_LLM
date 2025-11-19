@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MRAC-LLM: GPT-Powered Adaptive Control System"
+version: "1.0.0"
+authors:
+  - family-names: "Tohma"
+    given-names: "Kadir"
+    email: "kadir.tohma@iste.edu.tr"
+  - family-names: "Okur"
+    given-names: "Halil Ibrahim"
+    email: "hibrahim.okur@iste.edu.tr"
+  - family-names: "Gürsoy-Demir"
+    given-names: "Handan"
+    email: "handan.gursoy@iste.edu.tr"
+  - family-names: "Aydın"
+    given-names: "Merve Nilay"
+    email: "mnilay.aydin@iste.edu.tr"
+  - family-names: "Yeroğlu"
+    given-names: "Celaleddin"
+    email: "celaleddin.yeroglu@iste.edu.tr"
+
+repository-code: "https://github.com/halilokur91/MRAC_LLM"
+license: "MIT"
+keywords:
+  - "Model Reference Adaptive Control"
+  - "MRAC"
+  - "Adaptive Control"
+  - "GPT"
+  - "Large Language Models"
+  - "MATLAB"
+  - "Simulink"
+  - "Control Systems"
+abstract: >
+  MRAC-LLM is a MATLAB/Simulink-based adaptive control platform that integrates
+  GPT-powered intelligence for reference model design, automatic parameter
+  tuning, real-time performance analysis, and report generation.
+
+preferred-citation:
+  type: software
+  title: "MRAC-LLM: GPT-Powered Adaptive Control System"
+  version: "1.0.0"
+  year: 2025
+  url: "https://github.com/halilokur91/MRAC_LLM"
+  authors:
+    - family-names: "Tohma"
+      given-names: "Kadir"
+    - family-names: "Okur"
+      given-names: "Halil Ibrahim"
+    - family-names: "Gürsoy-Demir"
+      given-names: "Handan"
+    - family-names: "Aydın"
+      given-names: "Merve Nilay"
+    - family-names: "Yeroğlu"
+      given-names: "Celaleddin"
