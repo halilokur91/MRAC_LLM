@@ -518,7 +518,7 @@ If you use this software in your research, please cite:
   year    = {2025},
   version = {1.0.0},
   url     = {https://github.com/halilokur91/MRAC_LLM}
-}
+} ```
 
 
 ---
@@ -574,6 +574,7 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
 
 
