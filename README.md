@@ -514,7 +514,7 @@ If you use this software in your research, please cite:
 ```bibtex
 @software{mrac_llm_2025,
   title   = {MRAC-LLM: GPT-Powered Adaptive Control System},
-  author  = {Tohma, Kadir and Okur, Halil İbrahim and Gürsoy-Demir, Handan and Aydın, Merve Nilay and Yeroğlu, Celaleddin},
+  author  = { Okur, Halil İbrahim and Aydın, Merve Nilay and Gürsoy-Demir, Handan and Yeroğlu, Celaleddin and Tohma, Kadir},
   year    = {2025},
   version = {1.0.0},
   url     = {https://github.com/halilokur91/MRAC_LLM}
@@ -574,6 +574,7 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
 
 
