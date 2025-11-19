@@ -43,13 +43,14 @@ preferred-citation:
   year: 2025
   url: "https://github.com/halilokur91/MRAC_LLM"
   authors:
-    - family-names: "Tohma"
-      given-names: "Kadir"
+    
     - family-names: "Okur"
       given-names: "Halil Ibrahim"
-    - family-names: "Gürsoy-Demir"
-      given-names: "Handan"
     - family-names: "Aydın"
       given-names: "Merve Nilay"
+    - family-names: "Gürsoy-Demir"
+      given-names: "Handan"    
     - family-names: "Yeroğlu"
       given-names: "Celaleddin"
+    - family-names: "Tohma"
+      given-names: "Kadir"
