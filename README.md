@@ -520,8 +520,6 @@ If you use this software in your research, please cite:
   url     = {https://github.com/halilokur91/MRAC_LLM}
 }
 
----
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -573,6 +571,7 @@ If you find this project useful, please consider giving it a star! ⭐
 [⬆ Back to Top](#-mrac-llm-gpt-powered-adaptive-control-system)
 
 </div>
+
 
 
 
