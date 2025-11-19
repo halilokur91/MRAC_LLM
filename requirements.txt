@@ -1,0 +1,25 @@
+# MRAC-LLM Requirements
+# ========================
+
+# MATLAB/Simulink
+MATLAB >= R2019b
+Simulink (any version compatible with MATLAB)
+Control System Toolbox (required)
+
+# Optional Toolboxes
+Optimization Toolbox (optional)
+Statistics and Machine Learning Toolbox (optional)
+
+# API (Optional)
+OpenAI API Key (for GPT-4 features)
+
+# System Requirements
+RAM: 4 GB minimum, 8 GB recommended
+Disk Space: 500 MB minimum
+Display: 1280x720 minimum
+
+# Operating Systems
+Windows 10/11
+macOS 10.14+
+Linux (Ubuntu 18.04+)
+
